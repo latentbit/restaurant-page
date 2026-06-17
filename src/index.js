@@ -20,6 +20,9 @@ nav.addEventListener('click', (e) => {
         case 'Home':
             renderHomePage();
             break;
+        default:
+            renderHomePage();
+            break;
     }
 })
 
